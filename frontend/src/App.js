@@ -20,7 +20,7 @@ function App() {
 
     try {
       console.log('hii')
-      const response = await axios.get(`http://localhost:5005/api/news`, {
+      const response = await axios.get(`https://aconews-backend-euip.onrender.com`, {
         params: {
           q: searchTerm,
           category: filters.category,
