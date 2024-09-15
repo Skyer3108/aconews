@@ -1,0 +1,13 @@
+.container{
+    margin-top: 20px;
+}
+
+.img{
+    border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+select{
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
