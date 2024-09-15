@@ -12,9 +12,7 @@ const app=expres()
 const PORT=5005
 app.use(expres.json())
 
-app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your React app’s URL if different
-  }));
+app.use(cors());
 
 app.use('/api',newsRouter)
 
