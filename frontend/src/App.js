@@ -39,6 +39,7 @@ function App() {
       console.log(response.data.data.articles, 'ff')
       setArticles(response.data.data.articles);
       setSearchTerm('')
+
     } catch (error) {
       console.error('Error fetching news:', error);
     }
