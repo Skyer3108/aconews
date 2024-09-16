@@ -36,7 +36,7 @@ console.log(apiUrl)
 
 const response=await axios.get(apiUrl)
 
-console.log(response.data)
+
 
 res.send({
     data:response.data
